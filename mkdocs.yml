@@ -19,6 +19,14 @@ theme:
     features:
       - content.code.annotate
 
+    features:
+      - navigation.tabs
+      - navigation.instant
+      - navigation.expand
+
+    features:
+      - content.code.annotate
+
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -64,3 +72,10 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+nav:
+  - Home: index.md
+  - Documentation: 
+    - Software: 
+      - "Thread API": Documentation/Software/thread.md
+  - Faq:
+    - Why Study Computer Systems Fundamentals?: Faq/why-study-computer-systems.md
