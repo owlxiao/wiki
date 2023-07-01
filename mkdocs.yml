@@ -79,3 +79,5 @@ nav:
       - "Thread API": Documentation/Software/thread.md
   - Faq:
     - Why Study Computer Systems Fundamentals?: Faq/why-study-computer-systems.md
+
+  - Feature-testing: Hello.md
